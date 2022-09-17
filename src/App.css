@@ -1,0 +1,79 @@
+#root {
+  /*max-width: 1280px;*/
+  margin: 0 auto;
+  /*padding: 2rem;*/
+  text-align: left;
+}
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: lightgray;
+  margin: 0;
+}
+
+nav{
+  background-color: black;
+  height: 20vh;
+  width: 100vw;
+
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.itemTags{
+  width: 40px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15%;
+  margin: 2rem;
+  padding: 2%;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.sideBar{
+  width: 25vw;
+  height: 100vh;
+  background-color: white;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.chartDiv{
+ background-color: white;
+  width:75vw;
+  height: 50vh;
+}
+.chartItem{
+   background-color: lightseagreen;
+  width:75vw;
+  height: 50vh;
+}
+.itemImage{
+  width: 60%;
+  margin-bottom: 4%;
+}
+.productTitle{
+  font-weight: 400;
+  font-size: larger;
+}

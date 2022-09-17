@@ -32,12 +32,18 @@ nav{
 }
 
 .itemTags{
-  width: 40px;
+  width: auto;
   background-color: white;
   border: 1px solid black;
-  border-radius: 15%;
+  border-radius: 10px;
   margin: 2rem;
   padding: 2%;
+  word-wrap: normal;
+}
+
+.itemTags > span{
+  width: 50%
+  ;
 }
 
 .card {
@@ -57,6 +63,12 @@ nav{
   flex-direction: column;
   text-align: center;
 
+
+}
+
+.sideBar > img{
+  margin: 15%;
+  display: block;
 }
 
 .chartDiv{
@@ -77,3 +89,4 @@ nav{
   font-weight: 400;
   font-size: larger;
 }
+
